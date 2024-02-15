@@ -44,6 +44,9 @@ h1{
     color: white;
     text-align: center;
     font-weight: 900 ;
+
+    padding-top: 44px;
+    padding-bottom: 44px;
 }
 
 q{
@@ -53,6 +56,8 @@ q{
     font-style: normal;
 
     font-size: 4.6rem;
+
+    text-align: end;
 }
 
 .citation p{
@@ -79,4 +84,19 @@ q{
 
 .info{
     font-size: 2.0rem;
+}
+
+.info article p{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer{
+    font-size: 2.0rem;
+    background-color: #2980B9 ;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
 }
